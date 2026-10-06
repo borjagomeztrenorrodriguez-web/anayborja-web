@@ -32,7 +32,7 @@ h2{ margin:0 0 1.4rem; font:700 clamp(2rem,4.2vw,2.8rem)/1.15 var(--grabado); le
 .menu a:hover{ opacity:1; border-color:currentColor; }
 .menu a.regalo{ opacity:1; }
 .menu a:focus-visible{ outline-color:var(--crema); outline-offset:2px; }
-@media (max-width:700px){ .menu ul{ flex-wrap:nowrap; justify-content:flex-start; overflow-x:auto; gap:1.3rem; padding:.6rem 16px; scrollbar-width:none; } .menu ul::-webkit-scrollbar{ display:none; } .menu li{ flex:none; } }
+@media (max-width:700px){ .menu ul{ flex-wrap:wrap; justify-content:center; overflow-x:visible; gap:.5rem 1.1rem; padding:.6rem 12px; } .menu li{ flex:none; } .menu a{ font-size:.86rem; letter-spacing:.1em; } }
 
 /* Portada: inicio de la web, con el trazo de la ruta del plano */
 .portada{ text-align:center; padding-block:clamp(3.5rem,11vw,7.5rem) clamp(2.5rem,6vw,4rem); }
